@@ -93,7 +93,7 @@ a,
 
 /* Second Section */
 
-.second-section {
+.info-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -101,7 +101,7 @@ a,
     padding: 24px 128px 64px 128px;
     gap: 16px;
 }
-.section-title {
+.info-title {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
