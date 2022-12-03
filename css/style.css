@@ -132,4 +132,35 @@ a,
     max-width: 200px;
 }
 
+/* Quote Section */
 
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.quote,
+.author {
+    width: 900px;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #1F2937;
+    padding-top: 64px;
+    padding-bottom: 8px;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 64px;
+    font-size: 20px;
+    font-weight: 700;
+}
