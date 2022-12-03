@@ -1,0 +1,137 @@
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+/* Header & Top Section */
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+a,
+.hero-secondary {
+    color:#E5E7EB;
+    font-size: 18px;
+}
+
+.hero-primary {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.top-section button {
+    font-size: 16px;
+    max-width: fit-content;
+    max-height: fit-content;
+    border: none;
+}
+
+.header,
+.top-section { 
+    background-color: #1F2937;
+}
+
+.header {
+    padding: 8px;
+    display: flex;
+    padding: 12px 128px 64px 128px;
+}
+
+.header-left,
+.header-right {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.header-left {
+    justify-content: flex-start;
+}
+
+.header-right {
+    justify-content: flex-end;
+}
+
+.top-section {
+    display: flex;
+    padding: 12px 128px 64px 128px;
+    align-items: center;
+    gap: 48px;
+}
+
+.top-section .text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 8px;
+}
+
+.top-section .image {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+/* Second Section */
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 128px 64px 128px;
+    gap: 16px;
+}
+.section-title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.border-box {
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+}
+
+.info .text {
+    max-width: 180px;
+}
