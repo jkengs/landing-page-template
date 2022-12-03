@@ -91,7 +91,7 @@ a,
     justify-content: flex-end;
 }
 
-/* Second Section */
+/* Info Section */
 
 .info-section {
     display: flex;
@@ -131,4 +131,5 @@ a,
     align-items: center;
     max-width: 200px;
 }
+
 
