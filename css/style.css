@@ -54,6 +54,7 @@ a,
     padding: 8px;
     display: flex;
     padding: 12px 128px 64px 128px;
+    gap: 16px;
 }
 
 .header-left,
@@ -87,8 +88,8 @@ a,
 
 .top-section .image {
     display: flex;
-    flex: 1;
     justify-content: flex-end;
+    flex: 1 0 0;
 }
 
 /* Info Section */
